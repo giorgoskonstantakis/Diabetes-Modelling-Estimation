@@ -1,0 +1,9 @@
+Development of a Linear Kalman Filter for observing the response of a diabetic type-1 subject throughout the day
+
+The purpose of this project is to develop a method with which a hospital patient could be easily taken care of in unpleasant situations ( such as having
+an extremely low blood glucose concentration ) in order to inform the doctors immediately , through the use of sensors which are applied in the surface of
+the body of the patient , using 5G technologies . For that reason , we developed a Linear Kalman Filter for estimating the blood glucose concentration of
+the patient at any given time , calculating the distance between the true values and the model . In the file there are all the necessary functions and 
+instructions to do so .
+
+Giorgos Michail Konstantakis , Electrical and Computer Engineer , University of Patras , Greece

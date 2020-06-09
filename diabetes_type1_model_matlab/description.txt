@@ -1,0 +1,14 @@
+Diabetes Glucose-Insulin Model 
+
+In this project , we introduce a mathematical model ( algorithm ) to represent the daily fluctuations of blood glucose concentration in a type-1
+diabetic subject . We modelled the effect of several meal disturbances in the blood glucose throughout the day . We also modelled the effect of 
+insulin injection as a result to lower the blood glucose . The more interesting part about the model is that it is an extremely simple discrete time
+state-space model of order 6 with decent numerical accuracy , and thus it is extremely easy to develop other projects based on this model , such as 
+controllers or estimators to regulate or observe the blood glucose values throughout the day . This file contains 3 matlab scripts , from which two are 
+functions and the other is the "main" script , where you can simulate the model and extract your results . There are specific instructions inside the 
+scripts as comments , on how to use the codes , but there are also some details about the theory on the model . Basically , we extracted an empirical
+model in state space form to represent the relationship between the blood glucose with the meal disturbance and the insulin , using also some dummy state
+variables . In the code you can also find how to simulate different diabetic subjects . 
+
+Giorgos Michail Konstantakis , Electrical and Computer Engineer , University of Patras , Greece
+	
